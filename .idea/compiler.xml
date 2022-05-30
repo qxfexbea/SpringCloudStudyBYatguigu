@@ -8,10 +8,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="common_util" />
+        <module name="service_user" />
         <module name="service_util" />
         <module name="model" />
-        <module name="service_user" />
         <module name="service_hosp" />
+        <module name="sevice_cmn" />
+        <module name="hospital-manage" />
       </profile>
     </annotationProcessing>
   </component>
@@ -19,11 +21,13 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="common" options="-parameters" />
       <module name="common_util" options="-parameters" />
+      <module name="hospital-manage" options="-parameters" />
       <module name="model" options="-parameters" />
       <module name="service" options="-parameters" />
       <module name="service_hosp" options="-parameters" />
       <module name="service_user" options="-parameters" />
       <module name="service_util" options="-parameters" />
+      <module name="sevice_cmn" options="-parameters" />
       <module name="yygh_parent" options="-parameters" />
     </option>
   </component>
